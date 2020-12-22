@@ -1,0 +1,42 @@
+Seja a classe abaixo...
+	
+	class Cliente {
+	private int codigo;
+	private String nome;
+	public Cliente (){
+	this.codigo = 0;
+	this.nome = “”;	
+					}	
+	public Cliente (int codigo, String nome){
+	this.codigo = codigo; this.nome = nome;
+	}
+	public int getCodigo(){
+	return codigo;
+		}	
+	public void setCodigo(int codigo){
+	this.codigo = codigo; }
+	public String getNome(){
+	return nome;
+	public void setNome(String nome){ this.nome = nome;
+	}	
+	}
+
+
+... o que significa cada um dos trechos de código abaixo?
+
+	Cliente c;
+	
+	R)Criamos um ponteiro chamado C
+
+
+
+	= new Cliente ();
+
+	R) Criamos um novo objeto Cliente
+
+
+	Cliente c = new Cliente ();
+	
+	R) Atribuimos esse novo objeto ao ponteiro C
+
+

@@ -1,0 +1,7 @@
+slide 20
+por que o codigo abaixo imprime[46 - 11]?
+
+    R: Porque os operadores << e >> manuseiam os bits do valor da variavel. 
+
+    x = z << 1  neste caso o 23 (10111) vira 46(101110)
+    y = y >> 1  neste caso o 23 vira 11 (1011)

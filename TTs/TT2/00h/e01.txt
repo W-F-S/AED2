@@ -1,0 +1,7 @@
+slide 04
+
+a condição de parada é n==1 no primeiro exemplo, ja que se esta afirmação é verdadeira o codigo ignorará o else e retornará resp
+
+no segundo exemplo o metodo de parada é parecido em comparação com o primeiro, sendo adicionada mais uma condição de parada no segundo codigo
+
+ja as chamadas recursivas se encontram dentro do else, em ambos os codigos.

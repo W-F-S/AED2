@@ -1,0 +1,6 @@
+Atributos e métodos estáticos podem ser chamados sem que
+um objeto seja instanciado (por exemplo, IO.println)
+•
+Qual é a vantagem disso?
+
+R) Uma das disversas vantagens é a abrangencia ao manusear classes com muitos objetos. onde podemos pegar imformações destes objetos sem necessáriamente ter de invocar estes objetos.

@@ -1,0 +1,56 @@
+#include <stdio.h>     // para entradas e saida
+#include <stddef.h>    // para definicoes basicas
+#include <stdlib.h>    // para a biblioteca padrao
+#include <string.h>    // para cadeias de caracteres
+#include <stdarg.h>    // para tratar argumentos
+#include <stdbool.h>   // para definicoes logicas
+#include <ctype.h>     // para tipos padroes
+#include <math.h>      // para definicoes matematicas
+#include <time.h>      // para medir tempo
+
+bool fim (char *palavra)
+{
+	return (strlen(palavra) == 4 && (palavra[0] == 'F') && palavra[1] == 'I' && palavra[2] == 'M');
+}
+
+bool pali(char *palavra, int i, bool resp)
+{
+	int fim = strlen(palavra) - 2 - i;
+	if ( i < fim )
+     {                                                            
+		if(palavra[i] == palavra[fim])
+          {     
+			resp = pali(palavra, i=i+1, resp);        
+		}
+          else
+          {
+               return false;                    
+          }
+	}                       
+	return resp;      
+}                       
+
+int main ()
+{
+	char *palavra = (char*) (calloc (2001, sizeof(char)));
+	do
+     {
+          getchar();
+          fgets(palavra, 300, stdin);
+          if(!fim(palavra))
+          { 
+	     	if(pali(palavra, 0, true))
+               {
+	     		printf("SIM\n");
+     
+	     	}
+               else
+               {
+	     		printf("NAO\n");
+     
+	     	}
+          }
+	}
+     while(!fim(palavra));
+}
+

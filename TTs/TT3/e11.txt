@@ -1,0 +1,8 @@
+(11) Calcule o número de multiplicações que o código abaixo realiza:(72)
+
+for (int i = n - 7; i >= 1; i--)
+	for (int j = 0; j < n; j++)
+		a *= 2;
+
+
+R) neste caso o n deve ser maior ou igual a 8; O codigo fará um total de n * (n-7) multiplicações

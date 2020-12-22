@@ -1,0 +1,7 @@
+(17) Calcule o número de multiplicações que o código abaixo realiza:(82)
+
+for (int i = 1; i < n; i *= 2)
+	a *= 2;
+
+R)O agoritmo realizará ⌊log(2)⌋ operações
+

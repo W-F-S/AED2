@@ -1,0 +1,5 @@
+• public : acessíveis “dentro” e “fora” da classe
+• private : acessíveis somente “dentro” da classe
+• Qual é a vantagem disso?
+
+R) Principalmente manusear dados importantes e que precisam de um certo nível de segurança, garantindo que não sejam acessados por outras classes ou pacotes.

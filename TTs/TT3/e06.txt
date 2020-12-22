@@ -1,0 +1,8 @@
+(6) Calcule o número de subtrações que o código abaixo realiza (30):
+
+...
+for (int i = 5; i >= 2; i--){
+	a--;
+}
+
+R) O codigo realiza 8 subtrações 

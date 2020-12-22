@@ -1,0 +1,9 @@
+slide 18
+Qual é a diferença entre os dois metodos abaixo
+    
+    R: Digamos que i = 1
+
+    no primeiro caso; se mostrarmos o "x" na tela ele virá como 1, por que este metodo é chamado de pos-incremento. Irá executar primeiro o print e depois somar
+
+    no segundo caso; será mostrado 2, o método é chamado de pre-incremento e faz primeiro a soma e depois mostra o numero na tela
+ 

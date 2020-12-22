@@ -1,0 +1,11 @@
+(3)Calcule o número de adições que o código abaixo realiza:(16)
+
+if (a + 5 < b + 3 || c + 1 < d + 3){
+	i++;
+	++b;
+	a += 3;
+} else {
+	j++;
+}
+Resposta: O maior numero de adições acontecem quando o if é verdadeiro. Ja o menor numero acontece quando o if e falso, onde o else é executado
+

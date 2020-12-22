@@ -1,0 +1,10 @@
+(5)calcule o numero de subtrações que o codigo abaixo realiza(29)
+
+-----------------------------------
+int i = 10;
+	while (i >= 7){
+	i--;
+}
+----------------------------------------
+
+R) o codigo realiza 4 subtrações

@@ -1,0 +1,15 @@
+(8)Calcule o número de subtrações que o código abaixo realiza:(32)
+
+int a = 10;
+
+for (int i = 0; i < 3; i++){
+	for (int j = 0; j < 2; j++){
+		a--;
+	}
+}
+
+
+sendo for(...; i < a;...)
+	for(...; i < b;...)
+
+o codigo fará a * b subtrações

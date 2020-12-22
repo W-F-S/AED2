@@ -1,0 +1,3 @@
+qual das duas versões é mais fácil de entender?
+
+    R: O codigo da esquerda. Pela sua identação alinhada e pelo uso de outras funções que economizam linhas ajudando assim no entendimento

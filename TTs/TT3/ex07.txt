@@ -1,0 +1,9 @@
+(7)Calcule o número de subtrações que o código abaixo realiza:(27)
+
+...
+for (int i = 3; i < n; i++){
+	a--;
+}
+
+teremos n-3 subtrações
+

@@ -1,0 +1,4 @@
+O que o codigo abaixo faz? (slide 4)
+    R: Verifica se o caractere passado por um parametro é uma vogal e se é maiuscula ou minuscula
+
+

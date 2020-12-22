@@ -1,0 +1,20 @@
+(11) Encontre o menor valor em um array de inteiros (86)
+
+int min = array[0];
+
+	for (int i = 1; i < n; i++){
+		if (min > array[i]){
+			min = array[i];
+		}
+	}
+
+1o) Qual é a operação relevante?
+
+	R) Comparação executada pelo If que está contido no for
+
+2o) Quantas vezes ela será executada?
+	R) Se tivermos n elementos: T(n) = n - 1
+
+3o) O nosso T(n) = n – 1 é para qual dos três
+casos?
+

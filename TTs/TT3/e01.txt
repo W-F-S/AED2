@@ -1,0 +1,5 @@
+Resolva as equações abaixo:
+
+a) = 1	d) = 8	 g) = 64	j) = 512
+b) = 2	e) = 16	 h) = 128	k) = 1024
+c) = 4	f) = 32	 i) = 256   	l) = 2048

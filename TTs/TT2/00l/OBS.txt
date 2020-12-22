@@ -1,0 +1,1 @@
+Não foi possível fazer o exercicio do slide 06, devido a inexistencia da pasta (e dos arquivos) cidata no repositorio do gitHub

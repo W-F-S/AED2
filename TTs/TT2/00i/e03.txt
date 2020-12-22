@@ -1,0 +1,13 @@
+Na verdade, no comando c2 = c1 do exercício anterior, 
+o programador gostaria que os atributos do objeto apontado por
+c2 fossem iguais aos do objeto apontado por c1, contudo,
+apontando para objetos distintos. Como podemos ajudá-lo?(63)
+
+R) Poderiamos clonar os objetos de c1 para c2, ultilisando um codigo parecido com esse:
+	
+	public Cliente clone (){
+		Cliente resp = new Cliente();
+		resp.codigo = this.codigo;
+		resp.nome = this.nome;
+		return resp;
+	}	

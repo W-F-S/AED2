@@ -1,0 +1,8 @@
+    j >= 0 && (
+        array[j].getAnoNascimento() > tmp.getAnoNascimento() || (
+            array[j].getAnoNascimento() == tmp.getAnoNascimento() &&
+            array[j].getNome().compareTo(tmp.getNome()) > 0
+        )
+    )
+)
+

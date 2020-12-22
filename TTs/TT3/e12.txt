@@ -1,0 +1,6 @@
+(12)Calcule o número de multiplicações que o código abaixo realiza:(73)
+
+for (int i = n; i > 0; i /= 2)
+	a *= 2;
+
+R) o programa vai multiplicar um total de (n/2) vezes

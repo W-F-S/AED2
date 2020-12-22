@@ -1,0 +1,11 @@
+(6)Calcule o número de subtrações que o código abaixo realiza:(24)
+
+int i = 0, b = 10;
+
+while (i < 3){
+	i++;
+	b--;
+}
+
+serão feitas 3 subtrações
+

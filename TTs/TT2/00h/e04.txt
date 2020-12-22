@@ -1,0 +1,24 @@
+e04.txt (slide 50)
+
+void primeiro(){
+	System.out.println(“1o – inicio”);
+	segundo();
+	System.out.println(“1o – fim”);
+}
+
+void segundo(){
+	System.out.println(“2o – inicio e fim”);
+}
+
+void main (){
+	System.out.println(“main – inicio”);
+	primeiro();
+	System.out.println(“main – fim”);
+}
+
+vai ativar as funções na seguinte ordem
+	main - fim
+	01 - inicio
+	02 - inicio e fim
+	01 - fim
+	main - fim

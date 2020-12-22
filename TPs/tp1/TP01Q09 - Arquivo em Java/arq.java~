@@ -1,0 +1,26 @@
+import java.io.RandomAccessFile;
+
+class arq{
+
+	public static void main(String[] args) throws Exception{
+		RandomAccessFile file = new RandomAccessFile("num.txt", "rw");//definindo arquivo
+		int n = MyIO.readInt(); //lendo a quantidade de dados
+		double j; 
+
+		for(int i = 0; i < (n); i++){
+			j = MyIO.readDouble();//lendo os dados
+			file.writeDouble(j);//escrevendo os dados
+		}
+		file.close();
+		RandomAccessFile file2 = new RandomAccessFile("num.txt", "rw");//reabrindo o arquivo
+          
+		for(; (n) > 0; n = n-1){ 
+               
+               file2.seek(n);			//definindo o inicio do arquivo
+               MyIO.println("o (" + n + ")seek: "+file2.getFilePointer());
+			j = file2.read();//lendo os dados
+			MyIO.println(j);//printando os dados
+		}
+		file2.close();//fechando os arquivos
+	}	
+}

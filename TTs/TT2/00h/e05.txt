@@ -1,0 +1,17 @@
+e05 (slide 168)
+
+
+Faça um método recursivo que receba dois números inteiros e retorne a
+multiplicação do primeiro pelo segundo fazendo somas
+
+public static int recursivo(int i, int j){
+	int final = 0;
+	if(j > 0)
+	{
+		final = i + recursivo(i, (j-1));
+	
+	}
+	
+	return (final);
+}
+

@@ -1,0 +1,6 @@
+(9)Calcule o número de multiplicações que o código abaixo realiza:(77)
+
+for (int i = n; i > 0; i /= 2)
+	a *= 2;
+
+Quando n é uma potência de 2, realizamos lg(n) + 1 multiplicações

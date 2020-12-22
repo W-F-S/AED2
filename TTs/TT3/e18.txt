@@ -1,0 +1,6 @@
+Calcule o número de multiplicações que o código abaixo realiza:
+
+for (int i = 1; i <= n; i*= 2)
+	a *= 2;
+
+R) O codigo fará ⌊log(2)⌋ + 1

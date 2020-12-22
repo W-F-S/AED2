@@ -1,0 +1,6 @@
+(16) Calcule o número de multiplicações que o código abaixo realiza:(81)
+
+for (int i = n; i > 1; i /= 2)
+	a *= 2;
+
+R) O codigo efetuará a operação (a*=2) a (n/2)-1 vezes

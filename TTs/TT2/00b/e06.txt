@@ -1,0 +1,4 @@
+slide 19
+o que o programa abaixo mostra na tela?
+
+    o programa vai mostrar numeros de 0 a n enquanto o while for verdadeiro.

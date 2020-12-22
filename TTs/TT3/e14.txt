@@ -1,0 +1,7 @@
+(14)Calcule o número de multiplicações que o código abaixo realiza:(75)
+
+for (int i = n - 7; i >= 1; i--)
+	for (int j = n - 7; j >= 1; j--)
+		a *= 2;	
+
+R) o algoritmo fará a multiplicação (n-7)**2 vezes. dado um n>=8;

@@ -1,0 +1,4 @@
+(13)Calcule o número de multiplicações que o código abaixo realiza:(74)
+
+for (int i = n+4; i > 0; i >>= 1)
+	a *= 2;

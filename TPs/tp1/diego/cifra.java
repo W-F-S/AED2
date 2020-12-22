@@ -1,0 +1,40 @@
+/*
+Nome: Diego Da Silva Ferreira
+Matricula: 71 06 78
+
+*/
+public class cifra {
+
+//metodo de ciframento
+     public static String cezar (String s){
+
+	     String resp = "";
+	     int c;
+	
+	     //avança 3 posições na tabela ascii
+	     for(int x = 0; x < s.length(); x++){
+	
+	     	//c = (int) ;	
+	     	resp = resp + (char) (s.charAt(x) + 3);
+
+	     }
+	     return resp;
+     }
+
+
+     public static void main (String[] args){
+
+	     String s = MyIO.readLine();
+     
+	     while(!(s.length() == 3 && 
+	     	s.charAt(0) == 'F' && 
+	     	s.charAt(1) == 'I' && 
+	     	s.charAt(2) == 'M')){
+		
+	     	System.out.println(cezar(s));
+     
+	     	s = MyIO.readLine();
+	     }
+
+     }
+}

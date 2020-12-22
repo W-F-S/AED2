@@ -1,0 +1,19 @@
+Calcule o número de adições que o código abaixo realiza: 
+
+...
+if (a + 5 < b + 3){
+
+	i++;
+	++b;
+	a += 3;
+
+} else {
+
+	j++;
+
+}
+
+
+no melhor caso fazemos apenas 3 somas. (2 no if e 1 no else)
+
+no pior caso fazemos apenas 5 somas.

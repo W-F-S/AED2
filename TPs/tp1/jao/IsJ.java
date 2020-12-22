@@ -1,0 +1,183 @@
+class IsJ {
+
+	/** Metodo para verificar se a string do parametro é ou não igual a "FIM".
+	 * @param entrada - string a ser verificada.
+	 * @return - retorna true se a string tem as caracteristicas de "FIM".
+	 */
+	public static boolean isFim(String entrada) {
+		return (entrada.length() >= 3 && entrada.charAt(0) == 'F' && entrada.charAt(1) == 'I'
+				&& entrada.charAt(2) == 'M');
+	}
+
+	/** Metodo para verificar se o caractere a ser analizado é ou não uma vogal.
+	* @param entrada - caractere a ser analizado.
+	* @return        - retorna true caso seja vogal.
+	*/
+	public static boolean isLetraVogal(char ent) {
+		return (ent == 'a' || ent == 'e' || ent == 'i' || ent == 'o' || ent == 'u' || ent == 'A' || ent == 'E'
+				|| ent == 'I' || ent == 'O' || ent == 'U');
+	}
+
+	/** Metodo para verificar se o caractere é igual a um algarismo
+	 * @param ent - caractere a ser analizado
+	 * @return    - retorna true caso seja um algarismo
+	 */
+	public static boolean isLetraInt(char ent){
+		return (ent >= '0' && ent <= '9');
+	}
+
+	/** Metodo para verificar se a string contem somente vogais
+	 * @param ent - string a ser analizada.
+	 * @return    - retorna um valor booleano - true caso seja uma string de somente vogais, e false caso tenha algo diferente.
+	 */
+	public static boolean isVogal(String ent) {
+		boolean vogal = true;
+
+		for (int i = 0; i < ent.length(); i++) {
+			char letra = ent.charAt(i);
+
+			if (!isLetraVogal(letra)) {
+				vogal = false;
+				i = ent.length();
+			}
+		}
+
+		if (vogal == true) {
+			MyIO.print("SIM ");
+		} else {
+			MyIO.print("NAO ");
+		}
+
+		return vogal;
+	}
+
+	/** Metodo para verificar se uma string possui somente consoantes
+	* @param ent - string a ser analizada.
+	* @return    - retorna um valor booleano - true caso contenha somente consoantes na String. False caso tenha algo diferente.
+	*/
+	public static boolean isConsoante(String ent) {
+		boolean consoante = false;
+
+		for (int i = 0; i < ent.length(); i++) {
+			char letra = ent.charAt(i);
+
+			if ((letra >= 'a' && letra <= 'z' || letra >= 'A' && letra <= 'Z') && !isLetraVogal(letra)) {
+				consoante = true;
+			} else {
+				consoante = false;
+				i = ent.length();
+			}
+		}
+
+		if (consoante == true) {
+			MyIO.print("SIM ");
+		} else {
+			MyIO.print("NAO ");
+		}
+
+		return consoante;
+	}
+
+	/** Metodo para verificar se uma string possui somente algarismos
+	* @param ent - string a ser analizada.
+	* @return    - retorna um valor booleano. True se há somente números na String e false caso haja algo diferente.
+	*/
+	public static boolean isInt(String ent) {
+		boolean inteiro = false;
+
+		for (int i = 0; i < ent.length(); i++) {
+			char letra = ent.charAt(i);
+
+			if (letra >= '0' && letra <= '9') {
+				inteiro = true;
+			} else {
+		 		inteiro = false;
+				i = ent.length();
+			}
+		}
+
+		if (inteiro == true) {
+			MyIO.print("SIM ");
+		} else {
+			MyIO.print("NAO ");
+		}
+
+		return inteiro;
+	}
+
+	/** Metodo para verificar se uma string possui um número real.
+	* @param ent - string a ser analizada.
+	* @return    - valor booleano a ser retornado.
+	*/
+    	public static boolean isReal(String ent) {
+		boolean real = false;
+		int contador = 0;
+
+		for (int i = 0; i < ent.length(); i++) {
+			char letra = ent.charAt(i);
+
+			if(isLetraInt(letra)){
+				real = true;
+			} 
+            // Verificando se possui mais de "," ou "." na String
+			else if(letra == '.' || letra == ','){
+				contador++;
+			}
+			if(contador > 1){
+				real = false;
+			}
+		}
+
+		if (real == true) {
+			MyIO.print("SIM\n");
+		} else {
+			MyIO.print("NAO\n");
+		}
+		return real;
+	}
+
+	public static void main(String[] args) {
+		String entrada;
+
+		do{
+			entrada = MyIO.readLine();
+			if(isFim(entrada) == false){
+				isVogal(entrada);
+				isConsoante(entrada);
+				isInt(entrada);
+				isReal(entrada);
+			}
+		} while(isFim(entrada) == false);
+	}
+}    
+
+
+
+
+
+
+
+                                                                           
+                                                  0                         
+    	public static boolean isReal(String ent, int i, int contador) {
+		boolean real;
+		char letra = ent.charAt(i); 
+
+          if (i < ent.length()){
+               if(!isLetra(letra)){
+
+     	          if( (letra == '.' || letra == ',')  && contador < 1 ){
+	          		contador++;
+                         real = isReal(ent, i++, contador);     
+	          	}else{
+	          		real = false;
+          		}
+
+               }else{
+                         real = isReal(ent, i++, contador);
+               }
+          }
+     	return real;  
+	}
+
+

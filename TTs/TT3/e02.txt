@@ -1,0 +1,5 @@
+Resolva as equações abaixo:
+
+a) lg(2048) = 11 d) lg(256) = 8 g) lg(32) = 5 j) lg(4) = 2
+b) lg(1024) = 10 e) lg(128) = 7 h) lg(16) = 4 k) lg(2) = 1
+c) lg(512)  = 9  f) lg(64)  = 6 i) lg(8)  = 3 l) lg(1) = 0

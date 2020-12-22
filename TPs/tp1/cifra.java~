@@ -1,0 +1,40 @@
+class cifra{
+
+	public static boolean FIM(String fim){
+		return ( (fim.length() >= 3) && (fim.charAt(0) == 'F') && (fim.charAt(1) == 'I') && (fim.charAt(2) == 'M') );
+	}
+
+	public static String cript(String letra){
+		String s = "";
+
+		int cript;
+		for(int i = 0; i <= letra.length()-1; i++){
+			char teste = letra.charAt(i);
+			cript = (teste + 3);
+			if(teste == ' '){
+				s += ' ';
+			}else if(('A' <= teste && teste <= 'Z') && (cript > 90)){
+				cript = (90 - cript);
+			
+			}else if(('a'<= teste && teste <= 'z')&&(cript > 122)){
+				cript = (122 - cript);
+			}
+			s += (char)cript;
+		}
+		return s;
+	}
+
+	public static void main(String[] args){
+		String s = "";
+		do{
+			
+			s = MyIO.readLine();
+		
+			if(!FIM(s))
+				System.out.print(cript(s)+"\n");
+			
+		}while(!FIM(s));
+		
+		
+	}
+}

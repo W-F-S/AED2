@@ -1,0 +1,12 @@
+(7) Calcule o número de subtrações que o código abaixo realiza: (31)
+
+for (int i = 0; i < 5; i++){
+	if (i % 2 == 0){
+		a--;
+		b--;
+	} else {
+		c--;
+	}	
+}
+
+R) O codigo irá fazer 8 subtrações.

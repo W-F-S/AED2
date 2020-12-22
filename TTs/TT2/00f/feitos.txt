@@ -1,0 +1,3 @@
+o primeiro exe ta bugado: printando as coisas em chines
+
+

@@ -1,0 +1,11 @@
+(8) Calcule o número de subtrações que o código abaixo realiza:(69)
+
+...
+for (int i = 0; i < n; i++){
+	for (int j = 0; j < n; j++){
+		a--;
+	}
+}
+
+R) o codigo fará n**(2) subtrações
+

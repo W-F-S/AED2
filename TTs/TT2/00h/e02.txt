@@ -1,0 +1,19 @@
+slide 07
+
+void print(){
+	for(int i = 0; i> 4 ; i++){
+		System.out.print( i +"\n");
+	}
+
+}
+
+
+ou 
+
+
+void print2(int i = 0){
+	if(i < 4){
+		System.out.print( i +"\n");
+		print2( i + 1);
+	}
+}

@@ -1,0 +1,8 @@
+(4)Calcule o número de subtrações que o código abaixo realiza:(19)
+
+...
+for (int i = 0; i < 4; i++){
+	a--;
+}
+
+Serão feitas 4 subtrações

@@ -1,0 +1,16 @@
+(1)Explique o que o programa abaixo imprime na tela (7):
+
+class Ponteiro01Array {
+	public static void main (String[] args) {
+		int[] vet = new int [5];
+		escrever(vet);
+		vet = new int [5];
+		escrever(vet);
+	}
+}
+
+R) O programa vai imprimir o endereço da memoria alocada. Como exemplo temos a seguinte saida:
+	
+	I@19469ea2
+	
+	I@13221655

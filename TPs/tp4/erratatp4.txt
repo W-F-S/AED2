@@ -1,0 +1,4 @@
+
+ordem verdadeira da segunda questão
+
+7, 3, 11, 1, 5, 9, 12, 0, 2, 4, 6, 8, 10, 13, 14

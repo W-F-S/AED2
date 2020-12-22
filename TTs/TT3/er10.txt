@@ -1,0 +1,117 @@
+Faça um método que receba um número inteiro n e efetue o número de
+subtrações pedido em:
+
+a) 3n + 2n**2
+b) 5n + 4n**3
+c) lg(n) + n
+d) 2n 3 + 5
+e) 9n 4 + 5n 2 + n/2
+f) lg(n) + 5 lg(n)
+
+a):
+	int i=0;
+
+	while (i < n){
+		i++;
+		a--; b--; c--;
+	}
+
+	for (i = 0; i < n; i++){
+		for (j = 0; j < n; j++){
+			a--; 
+			b--;
+		}
+	}	
+
+
+
+b):
+	int i=0;
+	while (i < n){
+		i++;
+		a--; b--; c--; d--; e--;
+	}
+
+	for (i = 0; i < n; i++){
+		for (j = 0; j < n; j++){
+			for (h = 0; j < ){
+				a--; 
+				b--;	
+				c--;
+				d--;
+			}
+		}
+ 	}	
+ 
+c):                 
+	for(i = n; i > 1; i/=2){       
+		a--;                 
+	}     
+
+d):
+	
+	n += 5;
+
+	while( i < n ){        
+		i++;
+		while(j < n ){	
+			j++;
+			while(k < (n)){
+				k++;
+				a--; b--; 
+			}
+		}	          
+	}     
+
+
+
+
+e): 
+
+	i=0; j=0; k=0; l=0;
+
+	while( i < n ){        
+		i++;
+		while(j < n ){	
+			j++;
+			while(k < (n)){
+				k++;
+				while(l < n){
+					l++;
+					a--; b--; c--;
+					d--; e--; f--;
+					g--; h--; z--;
+				}
+			}
+		}	          
+	}     
+
+	i=0;j=0;
+
+	while(i < n){
+		i++;
+		while(j < n){
+			j++;
+			a--; b--; c--;
+			d--; e--;
+		}
+	}
+
+	while(i < n){
+		i*=2;
+		a--;
+	}
+	
+
+f)
+	for(i=0; i < n; i*=2){
+		a--;
+	}
+	
+	for(i=0; i<n; i*=2){
+		a--; b--; c--;
+		d--; e--;
+	}
+
+	
+	                             

@@ -1,0 +1,5 @@
+/*
+e06.txt (slide 176)
+
+Faça um método recursivo que receba um array de números inteiros e um
+número inteiro n indicando o tamanho do array e retorne o maior elemento*/
