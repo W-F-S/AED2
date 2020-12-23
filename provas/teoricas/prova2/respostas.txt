@@ -1,0 +1,25 @@
+Pergunta 1:
+
+A) Não. pois *p apontará para v como um todo e não apenas para um elemento do arranjo;
+
+B) Sim. pois na 'funcao3' recebemos um ponteiro para 'x' e apenas o valor de 'y', com isso modificamos apenas o valor da variavel 'x' mas não à de 'y';
+
+C) Não, o programa terá como números mínimos e máximos de comparações os valores 2 e n para achar um valor. Acesarremos o regisno na verificação (l==NULL) e verificamos novamente, agora tentando achar o valor desejado e retornando caso encontrarmos. Com isso temos que fazer no mínimo 2 verificações e acessos para achar um registro nessa estrutura;
+
+Pergunta 2:
+
+A) Sim. Ao fazer (x = 5) e depois (p = &x) 'p' terá como valor um endereço para a variável 'x' que contem o numero 5.
+
+B) A afirmação está errada. A resposta se baseia no fato do Malloc alocar blocos de memória. Talvez blocos de memória seja uma notação para Bytes.
+
+C) Sim. 'b' é um ponteiro para 'a' o que nos permite modificar 'a' atravez de 'b'.
+
+Pergunta 3:
+
+ A saida será 800. Temos uma matriz de inteiros 10x20, para achar o tamanho dela basta multiplicar 10 x 20 x 4 = 800 (bytes);
+
+Pergunta 4:
+
+II) Teremos problemas de NullPointer caso exercutarmos o metodo com uma fila menor que 3 (com nó cabeça)
+
+III) 

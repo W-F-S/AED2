@@ -1,0 +1,14 @@
+Pergunta 1: O melhor caso vai ser 0(1) ja o pior caso de uma alvinegra é 0(log(n))
+
+Pergunta 4: Não entendi muito bem essa questão. No próprio slide ele fala que "As chaves não numéricas devem ser transformadas em números"(U09a, pg 11), fora que na aula tranformamos as strigns em ASCII para fazer as pesquisas 
+
+Pergunta 6: Não entendi essa historia de duas arvores alvinegras obtidas de uma arvore 234. Como obtemos duas arvores de uma? ao que parece cada no da 234 contem outros nós, então faz sentido a alvinegra e a 234 terem a mesma quantidade.
+
+Pergunta 7: Não entendi isso. E se tivermos apenas nós do tipo 4 na arvore e depois quisermos inserir na mesma? a altura vai aumentar mas não na raiz correto?
+
+Pergunta 8: mesma da 6
+
+pergunta 9:
+
+
+
